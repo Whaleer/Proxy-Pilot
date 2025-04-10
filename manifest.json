@@ -1,0 +1,32 @@
+{
+    "name": "Proxy Pilot",
+    "description": "Seamlessly switch between direct and proxy connections for any website with a single click.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/circle2.png"
+    },
+
+    "icons": {
+        "16": "images/circle2.png",
+        "32": "images/circle2.png",
+        "48": "images/circle2.png",
+        "128": "images/circle2.png"
+    },
+
+    "permissions": [
+        "proxy",
+        "tabs",
+        "storage",
+        "activeTab"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+
+    "background": {
+        "service_worker": "scripts/background.js"
+    }
+}

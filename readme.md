@@ -16,3 +16,9 @@ ProxyPilot gives you precise control over how your browser connects to websites.
 - Support for multiple proxy protocols (HTTP, HTTPS, SOCKS4/5) 
 - Visual status indicators 
 - No browsing history collection or tracking
+
+## Privacy
+
+Read our [Privacy Policy](https://whaleer.github.io/Proxy-Pliot/privacy-policy.html) to understand how we handle your data.
+
+
